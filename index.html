@@ -102,21 +102,21 @@
     </ol>
     
 <br>
-<form action="\" method="post">
+<form action="https://di-liks.github.io/rezume" method="post">
     
     <p>
         <h3><label for="UserName">Имя пользователя:</label></h3>
-        <input id="UserName" type="text" placeholder="Введите имя" required>
+        <input id="UserName" type="text" placeholder="Введите имя" name="UserName" required>
     </p>
 
     <p>
     <h3><label for="userEmail">Email:</label></h3>
-    <input id="userEmail" type="email" placeholder="Введите почту" required>
+    <input id="userEmail" type="email" placeholder="Введите почту" name="UserEmail" required>
     </p>
     
     <p>
         <h3><label for="date">Дата рождения:</label></h3>
-        <input id="date" type="date" required>
+        <input id="date" type="date" name="UserDate" required>
     </p>
 
     <p>
@@ -144,7 +144,7 @@
 
     <p>
         <h3><label for="superpowers">Сверхспособности:</label></h3>
-        <select id="superpowers" name="">
+        <select id="superpowers" name="superpowers">
         <option value="Missing">Отсутствуют</option>
         <option value="Immortality">Бессмертие</option >
         <option value="Passing">Прохождение сквозь стены</option>
@@ -162,7 +162,7 @@
 
     <p>
         <h3><label for="bio">Биография:</label></h3>
-        <textarea name="" id="bio" cols="30" rows="10" placeholder="Введите биографию"> Я заебался... </textarea>
+        <textarea name="biog" id="bio" cols="30" rows="10" placeholder="Введите биографию"> Я заебался... </textarea>
     </p>
     
     <input type="submit" value="Отправить" />
@@ -170,7 +170,5 @@
     <!-- <button>КНОПКА ДЛЯ БЛЯДСКОЙ ОТПРАВКИ 2</button> -->
 </form>
 
-
-    
     <div id="bottom"></div>
 </body>
