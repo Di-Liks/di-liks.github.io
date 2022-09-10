@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <style>
+        body {
+            color: #2C2A4A;
+        }
+
+        h1 {
+            color: #4F518C;
+        }
+
+        h2 {
+            color: #2C2A4A;
+        }
+        </style>
+        <title> Homework </title>
+</head>
+
+<body bgcolor=#DABFFF>
+    <h1 align="center"><a name:"top"></a> Homework </h1>
+    <h2 align="center"> Сделано дибилами ...</h2>
+    <p id="id1"> Answers to tasks are equivalent to their number in the list from the document. Any overlap with other
+        homeworks is purely coincidental. </p>
+    <ol>
+    <!-- 1) абсолютную гиперссылку на главную страницу сайта example.com; -->
+        <li> <a href="http://example.com">Site</a> </li>
+    <!-- 2) абсолютную на главную сайта example.com в протоколе https; -->
+        <li> <a href="https://example.com">Second example</a> </li>
+    <!-- 3) ссылку на файл на сервере FTP без авторизации; -->
+        <li> <a href="ftp://old-dos.ru/file/guru.txt">FTP no autorization</a> </li>
+    <!-- 4) ссылку на файл на сервере FTP с авторизацией; -->
+        <li> <a href="ftp://user:123@old-dos.ru/file/guru.txt">FTP autorization</a></li>
+    <!-- 5) ссылку на фрагмент страницы некоторого сайта; -->
+        <li> <a id="id2" href="https://www.kubsu.ru/en/node/1299#section-content">Fragment from KubGU</a> </li>
+    <!-- 6) ссылку на фрагмент текущей страницы; -->
+        <li> <a href="#id123">Fragment v2.0</a> </li>
+    <!-- 7) ссылку с двумя параметрами в URL; -->
+        <li> <a href="https://someshop.ru/catalog/iphone?page=1&perpage=20">Two URL things</a> </li>
+    <!-- 8) список ссылок основной навигации сайта с подписями title; -->
+        <li>
+            <nav>
+                <ul>
+                    <li><a href="#id2" title="website kubgu">top</a></li> 
+                    <li><a href="#bottom" title="down">end of the site</a></li>
+                </ul>
+            </nav>
+        </li>
+        <!-- 9) ссылку без href; -->
+        <li> <a> 1 фото </a> </li>
+    <!-- 10) ссылку с пустым href; -->
+        <li> <a href="">Link with blank href attribute</a> </li>
+    <!-- 11) ссылку, по которой запрещен переход поисковикам; -->
+        <li> <a href="https://vk.com/ssilviaf" rel="nofollow">Not allowed to be found by search on google or
+                something</a> </li>
+    <!-- 12) запрещенную для индексации поисковиками; -->
+        <li>
+            <noindex> <a href="https://vk.com/d81920">Not allowed to be indexed</a> </noindex>
+        </li>
+    <!-- 13) контекстную в тексте абзаца; -->
+        <li>
+            <p>History shows that <a href="https://en.wikipedia.org/wiki/Flower">flowers</a> have been used by humans
+                for thousands of years, to serve a variety of purposes. An early example of this is from about 4,500
+                years ago in Ancient Egypt, where flowers would be used to decorate women's hair.</p>
+        </li>
+    <!-- 14) ссылку-изображение; -->
+        <li> <img src="https://gorzavod.ru/wp-content/uploads/2021/10/0c6c78404cf1f711608205420.jpg" alt="PUTIN" width="100px"></li>
+    <!-- 15) ссылки из прямоугольных и круглых областей картинки (HTML-тег map); -->
+        <li>
+            <h4>Нажми на нос</h4>
+            <img src="https://cdn.ecommercedns.uk/files/5/229105/3/5327343/42085-a1.jpg" alt="ERROR"  usemap="#tilt" width="150px"></li>
+            
+            <map name="tilt">
+            <area shape="circle" coords="70,113,14" href="https://content.foto.my.mail.ru/mail/kemova54/_blogs/i-28387.jpg" alt="ERROR">
+        </map></li>
+    <!-- 16) относительную на страницу в текущем каталоге; -->
+        <li>
+            <a href="./tilt">в текущем</a>
+        </li>
+
+    <!-- 17) относительную на страницу в каталоге about; -->
+        <li>
+            <a href="about">About</a>
+        </li>
+    <!-- 18) относительную на страницу в каталоге уровнем выше текущего; -->
+        <li>
+            <a href="../io">1 уровень</a>
+        </li>
+    <!-- 19) относительную на страницу в каталоге двумя уровнями выше; -->
+        <li>
+            <a href="../../tip">2 уровня</a>
+        </li>
+    <!-- 20) сокращенную на главную; -->
+        <li><a href="/index.html">главная</a></li>
+    <!-- 21) сокращенную ссылку на внутреннюю. -->
+        <li>
+            <a href="#top">внутренняя</a>
+        </li>
+    </ol>
+    
+<br>
+<form action="\Users\Default\Downloads\" method="post">
+    
+    <p>
+        <h3><label for="UserName">Имя пользователя:</label></h3>
+        <input id="UserName" type="text" placeholder="Введите имя" required>
+    </p>
+
+    <p>
+    <h3><label for="userEmail">Email:</label></h3>
+    <input id="userEmail" type="email" placeholder="Введите почту" required>
+    </p>
+    
+    <p>
+        <h3><label for="date">Дата рождения:</label></h3>
+        <input id="date" type="date" required>
+    </p>
+
+    <p>
+        <h3>Пол:</h3>
+        <input type="radio" id="man" name="gender" required>
+        <label for="man">Мужской</label><br>
+        <input type="radio" id="woman" name="gender" required>
+        <label for="woman">Женский</label><br>
+        <input type="radio" id="No" name="gender" required>
+        <label for="No">Не определён</label><br>
+    
+    </p>
+
+    <p>
+        <h3>Количество конечностей:</h3>
+        <input type="radio" id="1-" name="limbs" required>
+        <label for="1-">1</label> <br>
+        <input type="radio" id="2-" name="limbs" required>
+        <label for="2-">2</label> <br>
+        <input type="radio" id="3-" name="limbs" required>
+        <label for="3-">3</label> <br>
+        <input type="radio" id="4-" name="limbs" required>
+        <label for="4-">4</label> <br>
+    </p>
+
+    <p>
+        <h3><label for="superpowers">Сверхспособности:</label></h3>
+        <select id="superpowers" name="">
+        <option value="Missing">Отсутствуют</option>
+        <option value="Immortality">Бессмертие</option >
+        <option value="Passing">Прохождение сквозь стены</option>
+        <option value="Levitation">Левитация</option >
+        <option value="hell">Дискретка на 5</option >
+        <option value="imposible">Успевать сдавать дедлайн</option>
+        <option value="joy">Радоваться</option>
+        <option value="regeneration">Регенерация</option>
+        </select>
+    </p>
+
+    <h3><label for="introduction">С контрактом ознакомлен(а)
+    <input type="checkbox" id="introduction" name="introduction" required>
+    </label></h3>
+
+    <p>
+        <h3><label for="bio">Биография:</label></h3>
+        <textarea name="" id="bio" cols="30" rows="10" placeholder="Введите биографию"> Я заебался... </textarea>
+    </p>
+    
+    <input type="submit" value="Отправить" />
+    
+    <!-- <button>КНОПКА ДЛЯ БЛЯДСКОЙ ОТПРАВКИ 2</button> -->
+</form>
+
+
+    
+    <div id="bottom"></div>
+</body>
