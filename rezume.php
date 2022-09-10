@@ -4,7 +4,7 @@
   $email = trim(strip_tags($_POST["email"]));
   $country = trim(strip_tags($_POST["country"]));
   $subject = "Регистрация на сайте url_вашего_сайта";
-  $msg = "Ваши данные формы регистрации:\n" ."Имя: $name\n" ."Пол: $sex\n" ."Ваш email: $email\n" ."Страна: $country";
+  $msg = "Ваши данные формы регистрации:\n" ."Имя: $UserName\n" ."Ваш email: $UserEmail\n" ."Дата рождения: $UserDate\n" ."Пол: $gender\n" ."Количество конечностей: $limbs" ."Суперспособности: $superpower";
   $headers = "Content-type: text/plain; charset=UTF-8" . "\r\n";
   $headers .= "From: Ваше_имя <ваш_email>" . "\r\n";
   $headers .= "Bcc: ваш_email". "\r\n";
