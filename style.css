@@ -1,8 +1,7 @@
 <html>
 <body style="margin:0">
-ol {
-  background-color: #454141
-  color: black;
-   }
+  <style>
+    body{background-color: #454141}
+  </style>
 </body>
 </html>
