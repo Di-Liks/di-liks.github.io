@@ -20,7 +20,7 @@ a:hover {
 	border-bottom: 2px solid black;
 }
 
-#header, #hyperlinks {
+#header, #hyperlinks, #formas{
 	background-color: #222222;
 	margin-bottom: 20px;
 	padding: 30px;
