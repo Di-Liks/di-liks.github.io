@@ -9,6 +9,16 @@ html {
     color: white;
 }
 
+#header {
+	font-size: 24px;
+}
+
+.logo {
+	float: left;
+	padding-right: 15px;
+    padding-top: 40px;
+}
+
 a {
 	text-decoration: none;
 	transition: 0.3s ease-in-out;
@@ -20,7 +30,7 @@ a:hover {
 	border-bottom: 2px solid black;
 }
 
-#header, #hyperlinks, #formas{
+#header, #hyperlinks {
 	background-color: #222222;
 	margin-bottom: 20px;
 	padding: 30px;
@@ -34,13 +44,9 @@ a:hover {
 
 #footer {
 	background-color: #222222;
-	padding: 30px;
+	padding: 20px;
 	margin-top: 20px;
-	font-size: 24px;
-}
-
-#header {
-	font-size: 24px;
+	font-size: 25px;
 }
 
 #parag {
@@ -53,12 +59,6 @@ a:hover {
 	max-width: 960px;
 	margin: 0 auto;
 	overflow: hidden;
-}
-
-.logo {
-	float: left;
-	padding-right: 15px;
-    padding-top: 40px;
 }
 
 .site_title {
