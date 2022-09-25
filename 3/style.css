@@ -95,7 +95,7 @@ tr:nth-child(even) {
 	background-color: #202020;
 }
 
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 1000px) {
 	.contFlex {
 		display: flex;
 		flex-direction: column;
@@ -105,7 +105,7 @@ tr:nth-child(even) {
 	.container-1 {
 		flex: 1;
 		order: 2;
-		flex-basis: 90%;
+		width: 80%;
 	}
 
 	.container-2 {
@@ -113,10 +113,9 @@ tr:nth-child(even) {
 		order: 1;
 	}
 
-	
 	.container-3 {
 		flex: 1;
 		order: 3;
-		flex-basis: 70%;
+		width: 80%;
 	}
 }
