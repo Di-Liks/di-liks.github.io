@@ -117,4 +117,8 @@ tr:nth-child(even) {
 		order: 2;
 		width: 80%;
 	}
+
+        #hyperlinks {
+		font-size: 13pt;
+	}
 }
