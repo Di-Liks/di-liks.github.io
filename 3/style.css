@@ -99,7 +99,7 @@ tr:nth-child(even) {
 	.contFlex {
 		display: flex;
 		flex-direction: column;
-		margin: 0 auto;
+		margin: 10 auto;
 	}
 
 	.container-1 {
