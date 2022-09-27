@@ -95,7 +95,7 @@ tr:nth-child(even) {
 	background-color: #202020;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 800px) {
 	.contFlex {
 		display: flex;
 		flex-direction: column;
