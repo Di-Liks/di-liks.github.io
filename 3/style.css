@@ -104,17 +104,17 @@ tr:nth-child(even) {
 
 	.container-1 {
 		flex: 1;
-		order: 2;
+		order: 1;
 		width: 80%;
 	}
 
 	.container-2 {
 		flex: 1;
-		order: 1;
+		order: 3;
 	}
 	.container-3 {
 		flex: 1;
-		order: 3;
+		order: 2;
 		width: 80%;
 	}
 }
