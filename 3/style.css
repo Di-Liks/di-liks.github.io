@@ -122,9 +122,4 @@ tr:nth-child(even) {
 		font-size: 13pt;
 	}
 
-        #header, #hyperlinks {
-	        background-color: #222222;
-        	margin-bottom: 20px;
-        	padding: 10px;
-        }
 }
