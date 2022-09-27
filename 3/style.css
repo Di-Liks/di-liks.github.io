@@ -121,4 +121,10 @@ tr:nth-child(even) {
         #hyperlinks {
 		font-size: 13pt;
 	}
+
+        #header, #hyperlinks {
+	        background-color: #222222;
+        	margin-bottom: 20px;
+        	padding: 10px;
+        }
 }
