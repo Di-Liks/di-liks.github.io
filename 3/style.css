@@ -28,7 +28,7 @@ padding-top: 60px;
 #navigation {
 	padding: 15px;
 	background-color: #222222;
-	border: 5px solid #2e2e2e;
+	border: 10px solid #2e2e2e;
 	margin-bottom: 20px;
 }
 
@@ -65,13 +65,13 @@ padding-top: 60px;
 
 #hyperlinks {
 background-color: #222222;
-border: 5px solid#2e2e2e;
+border: 10px solid#2e2e2e;
 }
 
 /* форма */
 #form {
 	background-color:#222222;
-	border: 5px solid #2e2e2e;
+	border: 10px solid #2e2e2e;
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -90,14 +90,14 @@ border: 5px solid#2e2e2e;
 /* таблица */
 table {
 	text-align: center;
-	border: 5px solid #2e2e2e;
+	border: 10px solid #2e2e2e;
 	border-collapse: collapse;
 }
 
 td, th {
 	width: 150px;
 	padding: 5px;
-	font-size: 15px;
+	font-size: 30px;
 }
 
 tr:nth-child(odd) {
