@@ -28,7 +28,7 @@ padding-top: 60px;
 #navigation {
 	padding: 15px;
 	background-color: #222222;
-	border: 10px solid #2e2e2e;
+	border: 5px solid #2e2e2e;
 	margin-bottom: 20px;
 }
 
@@ -41,21 +41,6 @@ padding-top: 60px;
 	font-size: 50px;
 }
 
-.li1{
-	flex:1;
-	order: 1;
-}
-
-.li2{
-	flex:1;
-	order: 2;
-}
-
-.li3{
-	flex:1;
-	order: 3;
-}
-
 /* ссылки */
 #header, #hyperlinks {
 	background-color: #222222;
@@ -65,18 +50,18 @@ padding-top: 60px;
 
 #hyperlinks {
 background-color: #222222;
-border: 10px solid#2e2e2e;
+border: 5px solid#2e2e2e;
 }
 
 /* форма */
 #form {
 	background-color:#222222;
-	border: 10px solid #2e2e2e;
+	border: 5px solid #2e2e2e;
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 2vw;
-	font-size: 30px;
+	font-size: 13px;
 }
 
 /* дно */
@@ -90,14 +75,14 @@ border: 10px solid#2e2e2e;
 /* таблица */
 table {
 	text-align: center;
-	border: 10px solid #2e2e2e;
+	border: 5px solid #2e2e2e;
 	border-collapse: collapse;
 }
 
 td, th {
 	width: 150px;
 	padding: 5px;
-	font-size: 30px;
+	font-size: 15px;
 }
 
 tr:nth-child(odd) {
