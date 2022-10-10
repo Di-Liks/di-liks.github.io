@@ -113,7 +113,7 @@
       </div>
       <!-- таблица -->
       <div class="d-flex flex-column row">
-        <div class="order-2 order-md-1 mt-3">
+        <div class="order-2 order-md-1 mt-lg-0 mt-3">
           <table class="table">
               <tr>
                 <th colspan="5" class="col-12 text-center" id="tt">Тригонометрическая таблица</th>
@@ -156,22 +156,22 @@
           </table>
         </div>
 
-        <div class="order-1 order-md-2 mt-lg-0 mt-sm-3">
+        <div class="order-1 order-md-2 mt-lg-0 mt-3">
           <!-- ФОРМА -->
-          <form action="/" class="container">
+          <form action="/" class="container" role="form">
             <div class="formgroup">
               <h2>Форма</h2>
               <br>  
               <label>Имя: </label>
-              <input type="text" class="form-control col-2" required>
+              <input type="text" class="form-control  сol-4 col-lg-2" required>
               <br>
 
               <label>e-mail: </label>
-              <input type="email" class="form-control col-2" required>
+              <input type="email" class="form-control  сol-4 col-lg-2" required>
               <br>
 
               <label>Дата рождения: </label>
-              <input type="date" class="form-control col-2" required>
+              <input type="date" class="form-control  сol-4 col-lg-2" required>
               <br>
 
               <label>Пол: </label><br>
@@ -202,17 +202,17 @@
 
               <label>Сверхспособности:</label><br>
               <select name="cool">
-                <option value="Missing" required>Отсутствуют</option>
-                <option value="Immortality" required>Бессмертие</option>
-                <option value="Passing" required>Прохождение сквозь стены</option>
-                <option value="Levitation" required>Левитация</option>
-                <option value="regeneration" required>Регенерация</option>
+                <option value="Missing">Отсутствуют</option>
+                <option value="Immortality">Бессмертие</option>
+                <option value="Passing">Прохождение сквозь стены</option>
+                <option value="Levitation">Левитация</option>
+                <option value="regeneration">Регенерация</option>
               </select>
               <br>
               <br>
 
               <label>Биография:</label><br>
-              <textarea name="field" cols="50" rows="10" required class="form-control col-3"></textarea>
+              <textarea name="field" cols="50" rows="10" required class="form-control  сol-6 col-lg-3"></textarea>
               <br>
               <div class="checkbox">
                 <label for="submit">
@@ -223,13 +223,13 @@
             </div>
           </form>
         </div>
-        <div class="order-3 mt-lg-3 mb-3 mb-lg-0" >
+        <div class="order-3 mt-lg-0 mt-3" >
 					<form id="calc" class="pl-3">
 						<label>Стоимость товара: <br>
-							<input class="mt-1 form-control col-5" id="stoim" type="text">
+							<input class="mt-1 form-control  сol-4 col-lg-2" id="stoim" type="text">
 						</labeL> <br>
 						<label>Количество товаров: <br>
-							<input class="mt-1 form-control col-5" id="colvo" type="text">
+							<input class="mt-1 form-control  сol-4 col-lg-2" id="colvo" type="text">
 						</label><br>
 
 						<label>
