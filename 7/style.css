@@ -95,15 +95,12 @@ th:hover{
     background-color: #fd0130;
 }
 
-/*слайдер*/
-
-#slidelinks{
-    background-color: #00ffd2;
-    transition: 0.8s ease-in-out;
-    border: 5px solid black;
+#slidelinks {
+    background-color: #fd0130;
 }
-.g{
-    border: 10px solid green;
+/*слайдер*/
+#slidelinks img{
+    border: 7px solid #fd0130;
 }
 /*прочее*/
 
@@ -118,13 +115,13 @@ a:hover {
     color: #fd0130;
 }
 
-button {
+.btnf button {
     background-color: #ece302;
     border: 3px solid black;
     color: black;
 }
 
-button:hover {
+.btnf button:hover {
     background-color: #f8ee03;
     border: 3px solid black;
     color: black;
