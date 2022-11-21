@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <title>Homework</title>
+</head>
+
+<body class="p-0 m=0">
+
+  <header class="mb-3 p-2">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-4 col-md-3 col-lg-2">
+          <img src="ava1.png" width="150" class="logo" alt="logo">
+        </div>
+        <div class="col-auto">
+          <h1 class="site_title col-sm-4">Homework</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container max-width-lg mx-auto">
+
+    <!-- навигация -->
+    <div>
+      <ul class="row text-center p-0" id="navigation">
+        <li class="col-sm-4"><a href="">Home</a></li>
+        <li class="col-sm-4"><a href="about/website.html">About</a></li>
+        <li class="col-sm-4"><a href="#" class="open-popup">Support</a></li>
+      </ul>
+    </div>
+    <main>
+      <!-- ссылки -->
+      <div class="order-0">
+        <div id="hyperlinks" class="row d-flex flex-column">
+          <h3 id="parag" class="text-center">Список гиперссылок</h3>
+          <ol>
+            <li class="col-12"><a href="http://example.com">Главная страница exemple</a></li>
+            <!-- 2) абсолютную на главную сайта example.com в протоколе https; -->
+            <li class="col-12"><a href="https://example.com">Second example</a></li>
+            <!-- 3) ссылку на файл на сервере FTP без авторизации; -->
+            <li class="col-12"><a href="ftp://university.ru/file/test.txt">Файл test.txt на сайте university
+                (для входа нужна регистрация)</a></li>
+            <!-- 4) ссылку на файл на сервере FTP с авторизацией; -->
+            <li class="col-12"><a href="ftp://user:@mail.ru/file/test.txt">Файл test.txt</a></li>
+            <!-- 5) ссылку на фрагмент страницы некоторого сайта; -->
+            <li class="col-12"><a href="https://kubsu.ru/ru/fktipm">Факультет ФКТиПМ на ссайте КубГУ</a>
+            </li>
+            <!-- 6) ссылку на фрагмент текущей страницы; -->
+            <li class="col-12"><a href="#id2">Ссылка на место страницы автора</a></li>
+            <!-- 7) ссылку с двумя параметрами в URL; -->
+            <li class="col-12"><a href="https://rustih.ru/robert-rozhdestvenskij/?page=2&search">Ссылка с двумя
+                параметрами URL</a></li>
+            <!-- 9) ссылку без href; -->
+            <li class="col-12"><a> https://kubsu.ru/ </a></li>
+            <!-- 10) ссылку с пустым href; -->
+            <li class="col-12"><a href="">Пустая ссылка</a></li>
+            <!-- 11) ссылку, по которой запрещен переход поисковикам; -->
+            <li class="col-12"><a href="https://vk.com/d81920" rel="nofollow">Ссылка, по которой запрещен переход
+                поисковикам</a></li>
+            <!-- 12) запрещенную для индексации поисковиками; -->
+            <li class="col-12">
+              <!--<noindex>--> <a id="id2" href="https://vk.com/d81920">Ссылка запрещенная для индексации
+                поисковикам</a>
+              <!--</noindex>-->
+            </li>
+            <!-- 13) контекстную в тексте абзаца; -->
+            <li class="col-12">
+              <p><a title="Ссылка на Википедию"
+                  href="https://ru.wikipedia.org/wiki/Матьяш_I_(король_Венгрии)">Матьяш</a> был провозглашён королём
+                Венгрии 24 января 1458 года.</p>
+            </li>
+            <!-- 14) ссылку-изображение; -->
+            <li class="col-12 nocolor">
+              <img src="https://militaryarms.ru/wp-content/uploads/2021/07/flag-rossii.jpg" alt="map" usemap="#map"
+                width="150">
+              <map name="map">
+                <area shape="default"
+                  href="https://savva-shop.ru/upload/iblock/340/3409537ac5083ba9e10e2b3f0f82e9ae.jpg" alt="ERROR">
+              </map>
+            </li>
+            <!-- 15) ссылки из прямоугольных и круглых областей картинки (HTML-тег map); -->
+            <li class="col-12 nocolor">
+              <h4>Нажми на нос</h4>
+              <img src="https://cdn.ecommercedns.uk/files/5/229105/3/5327343/42085-a1.jpg" alt="ERROR" usemap="#okr"
+                width="150">
+              <map name="okr">
+                <area shape="circle" coords="70,113,14"
+                  href="https://content.foto.my.mail.ru/mail/kemova54/_blogs/i-28387.jpg" alt="ERROR">
+              </map>
+            </li>
+            <li class="col-12 nocolor">
+              <h4>Нажми на кнопку</h4>
+              <img
+                src="https://thumbs.dreamstime.com/b/кнопка-значка-контрольной-пометки-неоновая-салатовая-квадратная-143273394.jpg"
+                alt="ERROR" usemap="#klik" width="150" height="160">
+              <map name="klik">
+                <area shape="rect" coords="5,5,135,135" href="https://www.youtube.com/" alt="ERROR">
+              </map>
+            </li>
+            <!-- 16) относительную на страницу в текущем каталоге; -->
+            <li class="col-12"><a href="./goose.html">Ссылка на страницу в текущем каталоге</a></li>
+            <!-- 17) относительную на страницу в каталоге about; -->
+            <li class="col-12"><a href="about/website.html">Относительная ссылка на страницу каталога
+                about</a></li>
+            <!-- Задания 18-20 -->
+            <li class="col-12"><a href="/about/work/file.html">Ссылка на задания 18-20</a></li>
+            <!-- 21) сокращенную ссылку на внутреннюю. -->
+            <li class="col-12"><a href="/goose.html">Внутренняя ссылка</a></li>
+          </ol>
+        </div>
+      </div>
+
+      <div id="slidelinks" class="row d-flex flex-column">
+        <div class="slider single-item">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+        </div>
+      </div>
+
+      <!-- таблица -->
+      <div class="d-flex flex-column row">
+        <div class="order-2 order-md-1 mt-3">
+          <table class="table">
+            <tr>
+              <th colspan="5" class="col-12 text-center" id="tt">Тригонометрическая таблица</th>
+            </tr>
+            <tr>
+              <th class="col-2">Рад</th>
+              <th class="col-2">0</th>
+              <th class="col-2">П/6</th>
+              <th class="col-2">П/4</th>
+              <th class="col-2">П/3</th>
+            </tr>
+            <tr>
+              <th class="col-2">Sin</th>
+              <td class="col-2">0</td>
+              <td class="col-2">1/2</td>
+              <td class="col-2">sqrt(2)/2</td>
+              <td class="col-2">sqrt(3)/2</td>
+            </tr>
+            <tr>
+              <th class="col-2">Cos</th>
+              <td class="col-2">1</td>
+              <td class="col-2">sqrt(3)/2</td>
+              <td class="col-2">sqrt(2)/2</td>
+              <td class="col-2">1/2</td>
+            </tr>
+            <tr>
+              <th class="col-2">Tg</th>
+              <td class="col-2">0</td>
+              <td class="col-2">1/sqrt(3)</td>
+              <td class="col-2">1</td>
+              <td class="col-2">sqrt(3)</td>
+            </tr>
+            <tr>
+              <th class="col-2">Ctg</th>
+              <td class="col-2">-</td>
+              <td class="col-2">sqrt(3)</td>
+              <td class="col-2">1</td>
+              <td class="col-2">1/sqrt(3)</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="order-1 order-md-2 mt-lg-0 mt-3">
+            <!-- ФОРМА -->
+            <form action="/" class="container text-center">
+              <div class="formgroup">
+                <h2>Форма</h2>
+                <br>
+                <label>Имя: </label>
+                <input type="text" class="form-control  сol-4 col-lg-2 kon" required>
+                <br>
+  
+                <label>e-mail: </label>
+                <input type="email" class="form-control  сol-4 col-lg-2 kon" required>
+                <br>
+  
+                <label>Дата рождения: </label>
+                <input type="date" class="form-control  сol-4 col-lg-2 kon" required>
+                <br>
+  
+                <label>Пол: </label><br>
+                <label>
+                  <input type="radio" value="value-1" name="people" required> Мужской
+                </label>
+                <label>
+                  <input type="radio" value=" value-2" name="people" required> Женский
+                </label>
+                <br>
+                <br>
+  
+                <label>Количество конечностей: <br></label>
+                <label>
+                  <input type="radio" value="1h" name="hand" checked>1
+                </label>
+                <label>
+                  <input type="radio" value="2h" name="hand">2
+                </label>
+                <label>
+                  <input type="radio" value="3h" name="hand">3
+                </label>
+                <label>
+                  <input type="radio" value="4h" name="hand">4
+                </label>
+                <br>
+                <br>
+  
+                <label>Сверхспособности:</label><br>
+                  <select name="cool">
+                  <option value="Missing">Отсутствуют</option>
+                  <option value="Immortality">Бессмертие</option>
+                  <option value="Passing">Прохождение сквозь стены</option>
+                  <option value="Levitation">Левитация</option>
+                  <option value="regeneration">Регенерация</option>
+                </select>
+                <br>
+                <br>
+  
+                <label>Биография:</label><br>
+                <textarea name="field" cols="50" rows="10" required class="form-control  сol-6 col-lg-3"></textarea>
+                <br>
+                <div class="checkbox">
+                  <label for="submit">С контрактом ознакомлен <input type="checkbox" id="submit" required></label>
+                </div>
+                <label>
+                  <button type="button">Отправить</button>
+                </label>
+              </div>
+            </form>
+          </div>
+
+        <div class="tabs order-3 mt-lg-3 mb-3 mb-lg-0 text-center">
+          <form id="dices">
+            <label>Дайсы:</label><br>
+
+
+            <select name="dice">
+              <option value="noDice">Не выбрано</option>
+              <option value="1">d4 (30 рублей)</option>
+              <option value="2">d6 (30 рублей)</option>
+              <option value="3">d8 (30 рублей)</option>
+              <option value="d10">d10 (30 рублей)</option>
+              <option value="4">d12 (30 рублей)</option>
+              <option value="5">d20 (30 рублей)</option>
+              <option value="d100">Набор (7 дайсов) (200 рублей)</option>
+            </select>
+
+            <div id="d10Dice">
+              <label>Вариация d10:</label><br>
+              <label><input type="checkbox" name="varDice"> Единицы</label>
+              <label><input type="checkbox" name="varDice"> Десятки</label>
+            </div>
+            
+            <div id="radioDice">
+              <label>Материал (цена за дайс):</label><br>
+              <label><input type="radio" value="clear1" name="mater">Пластик (без наценки)</label><br>
+              <label><input type="radio" value="clear2" name="mater">Эпоксидная смола (+10)</label><br>
+              <label><input type="radio" value="clear3" name="mater">Дерево (+20)</label><br>
+              <label><input type="radio" value="clear4" name="mater">Металл (+50)</label><br>
+              <label><input type="radio" value="clear5" name="mater">Душа суслика (+100)</label><br>
+            </div>
+            
+            <div id="sacDice">
+              <label>Дополнительно:</label><br>
+              <label><input type="checkbox" id="sacCube" > Мешочек (+250)</label>
+            </div>
+
+            <div id="mid">
+              <label>Количество: <br></label>
+                <input class="mt-1 form-control col-3 kon" name="colDice" type="text">
+              <br>
+
+            </div>
+
+            <div id="rezultDice"></div>
+          </form>
+        </div>
+
+        <div class="order-4 mt-lg-3 mb-3 mb-lg-0 text-center">
+          <form id="calc" class="pl-3">
+            <label>Стоимость товара: <br></labeL>
+            <input class="mt-1 form-control col-3 kon" id="stoim" type="text">
+            <br>
+            <label>Количество товаров: <br></label>
+            <input class="mt-1 form-control col-3 kon" id="colvo" type="text">
+            <br>
+            <label>
+              <button type="button" id="but">Рассчитать</button>
+            </label>
+
+            <div id="rezult"></div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer id="footer" class="container-fluid p-4 mt-lg-3 mt-sm-0">
+    (c) Ликс Дмитрий 2022
+  </footer>
+
+    <!-- popup -->
+  
+    <form method="POST" action="https://formcarry.com/s/MyOTsYwGb" id = "MyOTsYwGbq" accept-charset="UTF-8">   
+    
+      <div class="popup-bg">
+        <div class="popup">
+          <h2>Обратная связь</h2>
+          <input type="text" name="name" id="popName" placeholder="Ваше имя"><br>
+  
+          <input type="email" name="slap_replyto" id="popEmail" placeholder="Ваша почта"><br>
+  
+          <label>Текст обращения:</label>
+          <textarea name="message" id="popBio" cols="38" rows="5"></textarea> <br>
+          
+          <div class="checkbox">
+            <label for="submits">С политикой ознакомлен <input type="checkbox" id="submits" name="yes"></label>
+          </div>
+  
+          <div class="text-center kon" id="otpravka3">
+            <i>Необходимо ознакомиться с политикой</i>
+          </div>
+          
+          <div class="open-popup-2 basicBoxs">
+            Проверка
+            <svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
+              <rect x='0' y='0' fill='none' width='130' height='65'/>
+            </svg>
+          </div>
+  
+          <div class="close-popup basicBox">
+            закрыть
+            <svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
+              <rect x='0' y='0' fill='none' width='130' height='65'/>
+            </svg>
+          </div>  
+        </div>
+      </div>
+  
+      <div class="popup-bg-2">
+        <div class="popup-2">
+          <div class="text-center" id="otpravka1">
+            <input type="submit" value="Отправить">
+          </div>
+        
+          <div class="text-center" id="otpravka2">
+            <h2>Заполнены не все данные или они некорректны.</h2>
+            <h2>Пожалуйста, повторите отправку, проверив введённые данные.</h2>
+          </div>
+        
+          <div class="close-popup-2 basicBoxes">
+            Вернуться
+            <svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
+              <rect x='0' y='0' fill='none' width='130' height='65' />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </form>
+
+  <script src="shop.js"></script>
+  <script src="jquery.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+  <script src="giga.js"></script>
+  <script src="https://carrier.formcarry.com/js/v1.js"></script>
+
+  <script>
+    formcarry({
+      form: "MyOTsYwGb",
+      element: "#MyOTsYwGbq",
+      extraData: {
+        screenSize: window.screen.width + " " +window.screen.height,
+        language: window.navigator.language,
+      },
+      onSuccess: function(response){
+        alert(response)
+      },
+      onError: function(error){
+        alert(error)
+      }
+    });
+  </script>
+
+</body>
+
+</html>
