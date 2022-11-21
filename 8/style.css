@@ -147,7 +147,10 @@ form input.kon, form textarea{
     background-color: black;
     color: #00ffd2;
 }
-
+/*слайдер*/
+#slidelinks img{
+    border: 7px solid #fd0130;
+}
 /*таблица*/
 
 table {
