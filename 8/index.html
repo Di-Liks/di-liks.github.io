@@ -397,6 +397,9 @@
         screenSize: window.screen.width + " " +window.screen.height,
         language: window.navigator.language,
       },
+      onSuccess: function(response){
+        alert(response)
+      },
       onError: function(error){
         alert(error)
       }
