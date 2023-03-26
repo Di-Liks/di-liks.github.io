@@ -63,7 +63,7 @@ catch(PDOException $e){
 //$stmt -> execute(['label'=>'perfect', 'color'=>'green']);
  
 //Еще вариант
-$stmt = $db->prepare("INSERT INTO users (firstname, lastname, email) VALUES (:firstname, :lastname, :email)");
+/*$stmt = $db->prepare("INSERT INTO users (firstname, lastname, email) VALUES (:firstname, :lastname, :email)");
 $stmt->bindParam(':firstname', $firstname);
 $stmt->bindParam(':lastname', $lastname);
 $stmt->bindParam(':email', $email);
@@ -71,7 +71,7 @@ $firstname = "John";
 $lastname = "Smith";
 $email = "john@test.com";
 $stmt->execute();
-
+*/
 
 // Делаем перенаправление.
 // Если запись не сохраняется, но ошибок не видно, то можно закомментировать эту строку чтобы увидеть ошибку.
