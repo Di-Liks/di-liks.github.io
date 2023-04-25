@@ -23,6 +23,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   }else{
 ?>
 <style>
+  body{
+  background-color: black;
+  }
   .log-in{
     font-family: "Montserrat", sans-serif;
     max-width: 960px;
