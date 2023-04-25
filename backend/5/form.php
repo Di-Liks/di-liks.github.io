@@ -17,9 +17,11 @@ h1{
     margin-left: 25%;
     margin-right: 25%;
 }
+
 a{
     color: black;
-    border: 1px solid #fd0130;
+}
+
 .pas{
     margin:2%;
     padding: 5%;
