@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     setcookie('pass', '', 100000);
     $messages[] = 'Спасибо, результаты сохранены.';
     if (!empty($_COOKIE['pass'])) {
-      $messages[] = sprintf('Войдите <a href="login.php">войти</a> с логином <strong>%s</strong>
+      $messages[] = sprintf('<a href="login.php">Войти</a> с логином <strong>%s</strong>
         и паролем <strong>%s</strong> чтобы измененить данные.',
         strip_tags($_COOKIE['login']),
         strip_tags($_COOKIE['pass']));
