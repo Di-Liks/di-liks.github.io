@@ -126,7 +126,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
       print('Error: '.$e->getMessage());
       exit();
     }
-    printf('Произведен вход с логином %s, uid %d', $_SESSION['login'], $_SESSION['uid']);
+    printf('Произведен вход с логином %s', $_SESSION['login'], $_SESSION['uid']);
   }
 
   // Включаем содержимое файла form.php.
