@@ -190,7 +190,7 @@ else {
     
     if ($errors) {
       setcookie('save','',100000);
-      header('Location: ind.php?edit_id='.$id);
+      header('Location: index.php?edit_id='.$id);
     }
     else {
       setcookie('name_error', '', 100000);
