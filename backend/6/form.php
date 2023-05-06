@@ -133,8 +133,8 @@ if (!empty($messages)) {
 
                 
                 <input name='dd' hidden value=<?php print($_GET['edit_id']);?>>
-                <input type="submit" name='save' value="Save"/>
-                <input type="submit" name='del' value="Delete"/>
+                <input type="submit" name='save' value="Сохранить"/>
+                <input type="submit" name='del' value="Удалить"/>
     </form>
              <a href='admin.php' class="button">Назад</a>
 
