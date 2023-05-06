@@ -64,7 +64,7 @@ body{
               echo '</td>
               <td>'.$user['bio'].'</td>
               <td>
-                <form method="get" action="ind.php">
+                <form method="get" action="index.php">
                   <input name=edit_id value='.$user['id'].' hidden>
                   <input type="submit" value=Выйти>
                 </form>
