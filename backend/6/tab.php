@@ -66,7 +66,7 @@ body{
               <td>
                 <form method="get" action="index.php">
                   <input name=edit_id value='.$user['id'].' hidden>
-                  <input type="submit" value=Войти>
+                  <input type="submit" value=Изменить>
                 </form>
               </td>
             </tr>';
