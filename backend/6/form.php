@@ -1,6 +1,6 @@
 <style>
 body{
-    background-color: antiquewhite;
+    background-color: #fcee0a;
     display: flex;
     justify-content:center;
     margin-top:5%;
@@ -9,8 +9,8 @@ body{
 .main{
     padding: 40px;
     width: 250px;
-    background-color: rgb(253, 197, 123);
-    border: 2px solid black;
+    background-color: #00ffd2;
+    border: 2px solid #fd0130;
 }
 
 h1{
@@ -26,7 +26,7 @@ h1{
     border-radius: 3px;
 }
 .error {
-    border-color: red;
+    border-color: #fd0130;
   }
 </style>
 <?php
@@ -133,8 +133,8 @@ if (!empty($messages)) {
 
                 
                 <input name='dd' hidden value=<?php print($_GET['edit_id']);?>>
-                <input type="submit" name='save' value="Save"/>
-                <input type="submit" name='del' value="Delete"/>
+                <input type="submit" name='save' value="Сохранить"/>
+                <input type="submit" name='del' value="Удалить"/>
     </form>
              <a href='admin.php' class="button">Назад</a>
 
