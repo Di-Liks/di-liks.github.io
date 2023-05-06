@@ -1,6 +1,6 @@
 <style>
 body{
-    background-color: #fcee0a;
+    background-color: antiquewhite;
     display: flex;
     justify-content:center;
     margin-top:5%;
@@ -9,8 +9,8 @@ body{
 .main{
     padding: 40px;
     width: 250px;
-    background-color: #00ffd2;
-    border: 2px solid #fd0130;
+    background-color: rgb(253, 197, 123);
+    border: 2px solid black;
 }
 
 h1{
@@ -26,7 +26,7 @@ h1{
     border-radius: 3px;
 }
 .error {
-    border-color: #fd0130;
+    border-color: red;
   }
 </style>
 <?php
@@ -115,7 +115,7 @@ if (!empty($messages)) {
                 <textarea name="bio"><?php print $values['bio']; ?></textarea>
             </div>
 
-                <?php 
+                        <?php 
                 $cl_e='';
                 $ch='';
                 if($values['check-1'] or !empty($_SESSION['login'])){
@@ -133,8 +133,8 @@ if (!empty($messages)) {
 
                 
                 <input name='dd' hidden value=<?php print($_GET['edit_id']);?>>
-                <input type="submit" name='save' value="Сохранить"/>
-                <input type="submit" name='del' value="Удалить"/>
+                <input type="submit" name='save' value="Save"/>
+                <input type="submit" name='del' value="Delete"/>
     </form>
              <a href='admin.php' class="button">Назад</a>
 
