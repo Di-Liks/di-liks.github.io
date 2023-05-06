@@ -234,7 +234,7 @@ else {
     if(!$errors){
       setcookie('save', '1');
     }
-    header('Location: ind.php?edit_id='.$id);
+    header('Location: index.php?edit_id='.$id);
   }
   else {
     $id=$_POST['dd'];
