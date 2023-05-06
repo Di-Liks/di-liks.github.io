@@ -115,7 +115,7 @@ if (!empty($messages)) {
                 <textarea name="bio"><?php print $values['bio']; ?></textarea>
             </div>
 
-                        <?php 
+                <?php 
                 $cl_e='';
                 $ch='';
                 if($values['check-1'] or !empty($_SESSION['login'])){
