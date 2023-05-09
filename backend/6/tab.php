@@ -1,6 +1,6 @@
 <style>
 body{
-    background-color: antiquewhite;
+    background-color: #fcee0a;
     display: flex;
     justify-content:center;
     margin-top:5%;
@@ -12,7 +12,7 @@ body{
     margin: 0 auto;
   }
   .error {
-    border: 3px solid red;
+    border: 3px solid #fd0130;
   }
   .hidden{
     display: none;
