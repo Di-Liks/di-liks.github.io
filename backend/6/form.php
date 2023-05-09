@@ -74,7 +74,7 @@ if (!empty($messages)) {
             </div>
 
             <div class="pas <?php if ($errors['radio-1']) {print 'error';} ?>"> 
-                Пол:
+                Пол:<br>
                 <input type="radio" name="radio-1" value="male"  <?php if($values['radio-1']=="male") {print 'checked';} ?>/>
                 Мужской
                 <input type="radio" name="radio-1" value="female" <?php if($values['radio-1']=="female") {print 'checked';} ?>/>
@@ -84,7 +84,7 @@ if (!empty($messages)) {
 
 
             <div class="pas <?php if ($errors['radio-2']) {print 'error';} ?>">
-                Сколько конечностей?
+                Сколько конечностей?<br>
                     <input type="radio" name="radio-2" value="4" <?php if($values['radio-2']=="4") {print 'checked';} ?>/>
                     4
 
