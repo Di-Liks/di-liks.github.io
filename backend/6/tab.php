@@ -10,7 +10,6 @@ body{
     max-width: 960px;
     text-align: center;
     margin: 0 auto;
-    border: 3px solid #fd0130;
   }
   .error {
     border: 3px solid #fd0130;
