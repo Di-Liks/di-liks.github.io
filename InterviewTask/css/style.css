@@ -1,6 +1,10 @@
 header {
-    border-bottom: silver solid 1px;
+    border-bottom: silver solid 1px;    padding: 20px 30px;
     background-color: white;
+}
+
+.header-block{
+    align-items: center;
 }
 
 .header_block_just{
@@ -37,6 +41,12 @@ button{
 
 /* center */
 
+.full-body{
+    margin-top: 100px;
+}
+.right-body{
+    margin-top: 150px;
+}
 .window-content{
     background-color: white;
     border-radius: 20px;
