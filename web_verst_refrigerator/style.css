@@ -1,0 +1,1148 @@
+/*
+*{
+    outline: 4px solid green !important;
+}
+*/
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Core Sans C', arial;
+    color: #0A2F41;
+}
+.wrapper{
+    max-width: 1408px;
+    margin: auto;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 60px;
+    text-align: left;
+    height: 120px;
+}
+
+.body-wrapper > div{
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.body-wrapper > div:last-child{
+    margin-bottom: 120px;
+}
+
+.block-img{
+    width: 100%;
+    max-width: 50%;
+    height: auto;
+}
+
+.block-text{
+    width: 100%;
+    max-width: 50%;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.button{
+    text-align: center;
+    top:50%;
+    background-color: #FF7300;
+    font-weight: 600;
+    line-height: 44px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.button:hover{
+    transition: 0.3s ease-in-out;
+    font-size: 18px;
+}
+
+header{
+    background-color: #0A2F41;
+    color: #FFFFFF;
+}
+
+.header-up-info{
+    padding-top: 18px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #FFFFFF1A;
+}
+
+.header-info, .header-info-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header-info-2{
+    margin-top: 19px;
+}
+
+.header-flex-box-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.header-flex-box{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header-flex-box u{
+    text-decoration: none;
+}
+
+.header-flex-box-3{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+}
+
+.header-flex-bottom{
+    width: 222px;
+    height: 52px;
+    text-align: center;
+    line-height: 52px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #0E3A4F;
+    cursor: pointer;
+}
+
+.header-nav{
+    margin-top: 48px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #9B9B9B;
+}
+
+.mobile-info-block{
+    display: none;
+}
+
+.header-naming{
+    max-width: 965px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 54px;
+}
+
+.header-naming h1{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 60px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+}
+
+.header-naming u{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.seo-text{
+    margin-top: 80px;
+    margin-bottom: 110px;
+}
+
+.seo-text h2{
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 52px;
+    text-align: left;
+}
+
+.seo-block{
+gap: 74px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.seo-mini-block{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.accept-repairs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F4F4F4;
+}
+
+.accept-repairs h2{
+    font-size: 44px;
+    font-weight: 800;
+    margin: 0;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0A2F41;
+}
+
+.accept-repairs-name{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 554px;
+    height: 52px;
+    top: 184px;
+    left: 523px;
+    padding-top: 52px;
+    padding-bottom: 60px;
+}
+
+.accept-repairs-name u{
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 52px;
+    text-decoration: none;
+    text-align: center;
+    color: #1A5C7C;
+}
+
+.accept-repairs-button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.official-dealer{
+    display: flex;
+    flex-direction: row ;
+    height: 384px;
+    background: linear-gradient(98.6deg, #E1E5E7 28.78%, #284B5F 95.49%);
+    color: #FFFFFF;
+}
+
+.official-dealer h2{
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 52px;
+    text-align: left;
+}
+
+.official-dealer u{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.official-dealer-info{
+    width: 50%;
+}
+
+.official-dealer-info-bottom{
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.carrier-logo-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.official-dealer-info-mini{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.official-dealer-button{
+    width: 131px;
+    height: 52px;
+    line-height: 52px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.services-info{
+    display: flex;
+    flex-direction: row;
+    justify-self: end;
+}
+
+.services-info-text{
+    padding-left: 5%;
+    width: 365px;
+}
+
+.services-info-text h3{
+    margin: 0px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #0A2F41;
+}
+
+.addint-info{
+    display:flex;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #FF7300;
+    cursor: pointer;
+}
+
+.svg-img{
+    height: 100%;
+}
+
+.addint-info u {
+    text-decoration: none;
+}
+
+.branch h2{
+    color: #0A2F41;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 52px;
+    text-align: center;
+}
+
+.branch-info{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.branch-block{
+    position: relative;
+    left: 32px;
+    max-width: 448px;
+}
+
+.branch-block u{
+    margin-top: 28px;
+    margin-bottom: 28px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #1A5C7CB2;
+    text-decoration: none;
+}
+
+.branch-info-text-mini p{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+.branch-location{
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.branch-info-text h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+    line-height: 24px;
+    text-align: left;
+    color: #0E3A4F;
+}
+
+.branch-info-text u{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #0E3A4F;
+    text-decoration: none;
+}
+
+.contract{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 544px;
+    background-color: #0A2F41;
+    overflow: hidden;
+}
+
+.contract-img{
+    object-fit:cover;
+    flex-shrink: 1;
+    order: 2;
+}
+
+.contract-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+}
+
+.contract-in-name{
+    display: flex;
+    flex-direction: column;
+
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.contract-application-block{
+    display: flex;
+    flex-direction: column;
+    margin-top: 52px;
+}
+
+.contract-name h2{
+    margin-top: 0px;
+    margin-left: 12%;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 52px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.contract-name u{
+    margin-top: 20px;
+    margin-left: -17%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.contract-application{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.contract-name-text{
+    width: 100%;
+}
+
+.contract-name-text u{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.contract-agreement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 61;
+    max-width: 300px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contract-agreement u{
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contract-button{
+    width: 336px;
+    height: 52px;
+    line-height: 52px;
+}
+
+.contract-checkbox {
+    display: block;
+	line-height: 22px;
+	cursor: pointer;
+	user-select: none;
+	position: relative;
+}
+
+.contract-checkbox input[type=checkbox] {
+    position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+
+footer{
+    background-color: #0A2F41;
+    width: 100%;
+}
+
+.container {
+    padding-top: 72px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.box-1 {
+    width: 25%;
+}
+
+.box-2 {
+    width: 25%;
+}
+
+.box-3 {
+    width: 25%;
+}
+
+.box-connection {
+    width: 25%;
+    left: 0px;
+}
+
+.box-footer-end {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    
+}
+
+.footer-button{
+    width: 208px;
+    height: 44px;
+    line-height: 44px;
+}
+
+.footer-button p{
+    margin: 0%;
+}
+
+.footer-button-text-2{
+    display: none;
+}
+
+.footer-info{   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer-info p{
+    cursor: pointer;
+}
+
+.footer-info-button{
+    position: relative;
+    display: grid;
+    grid-template-columns: 44px 44px;
+    gap: 16px;
+    margin-top: 72px;
+}
+
+.footer-info-button-1{
+    background-color: #FF7300;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    cursor: pointer;
+}
+
+.footer-info-button-1 svg{
+    transition: 0.5s ease-in-out;
+    padding: 10px;
+}
+
+.made-in{
+    text-align: left;
+}
+
+.сopyright-mark{
+    width: 25%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.privacy-policy{
+    width: 50%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.made-in{
+    width: 25%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.footer-info-button-1 svg:hover{
+    transition: 0.5s ease-in-out;
+    transform: rotate(-15deg);
+}
+
+input[type="text"] {
+    height: 24px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0px;
+    border: none;
+    margin-bottom: 28px;
+    margin-top: 8px;
+    color: #999999;
+}
+
+.name-text{
+    display: block;
+    max-width: 320px;
+    width: 320px;
+    padding: 14px 0px 14px 16px;
+    font-weight: 400;
+    color: #212529;
+    background-color: #FFFFFF;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+.footer-logo-2{
+    display: none;
+}
+
+.big-detal-mobile{
+    display: none;
+}
+
+.branch-info-text-bottom{
+    width: 328px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.branch-svg{
+    padding-top: 46px;
+    display: none;
+}
+
+@media (max-width: 800px) {
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 800px;
+        padding: 0px 16px 0px 16px;
+    }
+
+    .body-wrapper > div{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .mobile-info-block{
+        display: block;
+    }
+
+    .mobile-info-block svg{
+        cursor: pointer;
+    }
+
+    .header-up-info, .header-flex-box, .header-flex-bottom{
+        display: none;
+    }
+
+    .header-naming h1{
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 40px;
+    }
+
+    .header-naming u{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .seo-text h2{
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32px;
+    }
+
+    .block-text{
+        max-width: 100%;
+    }
+
+    .block-img{
+        max-width: 100%;
+    }
+
+    .seo-mini-block{
+        flex-direction: column;
+    }
+    
+    .mobile-block{
+        display: none;
+    }
+    
+    .seo-block{
+        gap: 40px;
+    }
+
+    .seo-block>div:nth-child(odd){
+        flex-flow: column-reverse;
+    }
+    
+    .accept-repairs{
+        background-color: #FFFFFF;
+    }
+
+    .accept-repairs h2{
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .accept-repairs-name{
+        width: 328px;
+    }
+
+    .accept-repairs-name u{
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .official-dealer{
+        flex-direction: column;
+        height: auto;
+        padding-top:40px;
+        padding-bottom: 40px;
+    }
+
+    .carrier-logo-img{
+        width: 100%;
+        height: auto;
+    }
+
+    .official-dealer-info{
+        margin-top: 40px;
+        margin-left: 45.5px;
+        margin-right: 45.5px;
+    }
+
+    .official-dealer-info-bottom{
+        max-width: 280px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .official-dealer h2{
+        width: 280px;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32px;
+    }
+
+    .services{
+        flex-direction: column;
+    }
+
+    .services-info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services-info-text{
+        padding: 0%;
+    }
+
+    .services-info-text h3{
+        margin-top: 32px;
+        text-align: center; 
+    }
+
+    .addint-info{
+        justify-content: center;
+    }
+
+    .branch{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .branch h2{
+        width: 100%;
+        margin: 0%;
+        padding-left: 16px;
+        margin-top: 40px;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32px;
+        text-align: left;
+    }
+
+    .branch-info{
+        flex-direction: column;
+        width: 328px;
+    }
+    
+    .branch-block{
+        left: 0%;
+    }
+
+    .branch-svg{
+        display: block;
+    }
+
+    .contract{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    
+    .contract-name h2{
+        margin-left: 0%;
+        width: 288px;
+        margin-top: 30px;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .contract-name u{
+        margin-left: 0%;
+        width: 268px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .contract-button{
+        margin-bottom: 40px;
+    }
+
+    .contract-agreement u{
+        text-align: left;
+    }
+
+    .contract-img{
+        order: 1;
+        width: 100%;
+    }
+    
+    .contract-name{
+        order: 2;
+    }
+
+    .contract-application{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contract-application-block{
+        margin-top: 20px;
+    }
+
+    .contract-agreement{
+        justify-content: start;
+        margin-top: 22px;
+    }
+
+    input[type="text"] {
+    margin-bottom: 0%;
+    }
+
+    .box-1 {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .box-2 {
+        width: 100%;
+    }
+        
+    .box-3 {
+        width: 100%;
+    }
+
+    .box-connection {
+        width: 100%;
+        left: 0px;
+    }
+
+    .box-footer-end{
+        flex-direction: column;
+        margin-top: 0%;
+    }
+
+    .privacy-policy{
+        margin-left: 0px;
+    }
+
+    .footer-info-button{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+
+    .big-detal-mobile{
+        max-width: 328px;
+        background-color: #E6E4E5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .сopyright-mark, .privacy-policy, .made-in{
+        width: 100%;
+    }
+    
+    .сopyright-mark{
+        margin-bottom: 8px;
+    }
+    .сopyright-mark p{
+        margin-bottom: 0px;
+        color: #FFFFFF99;
+    }
+
+    .privacy-policy{
+        margin-top: 0px;
+    }
+
+    .privacy-policy p{
+        margin-top: 0px;
+    }
+
+    .footer-logo-2, .footer-button-text-2{
+        display: block;
+    }
+
+    .footer-logo-1, .footer-button-text-1{
+        display: none;
+    }
+
+    }   
+    
+    @media (max-width: 1200px) {
+    
+        .wrapper{
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .body-wrapper > div{
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        .services{
+            flex-direction: column;
+        }
+    
+        .services-info{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .services-info-text{
+            padding: 0%;
+        }
+
+        .services-info-text h3{
+            margin-top: 32px;
+            text-align: center; 
+        }
+
+        .header-flex-box-2{
+            display: none;
+        }
+
+        .accept-repairs{
+            margin-top: 40px;
+        }
+
+        .mobile-block{
+            display: none;
+        }
+
+        .contract{
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+        }
+        
+        .contract-name h2{
+            margin-left: 0%;
+            width: 288px;
+            margin-top: 30px;
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 32px;
+            text-align: center;
+        }
+    
+        .contract-name u{
+            margin-left: 0%;
+            width: 268px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: center;
+        }
+
+        .contract-button{
+            margin-bottom: 40px;
+        }
+
+        .contract-agreement u{
+            text-align: left;
+        }
+
+        .contract-img{
+            order: 1;
+            width: 100%;
+        }
+
+        .contract-name{
+            order: 2;
+        }
+    
+        .contract-application{
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .contract-application-block{
+            margin-top: 20px;
+        }
+
+        .contract-agreement{
+            justify-content: start;
+            margin-top: 22px;
+        }
+
+        .official-dealer-info-bottom{
+            max-width: 450px;
+        }
+    }
+
+    .big-detal-info{
+        width: 284px;
+        padding-bottom: 48px;
+    }
+    
+    .big-detal-info h1{
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32px;
+        text-align: left;
+        color: #0A2F41;
+    }
+
+    .big-detal-info u{
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #0A2F41;
+    }
+
+    .button-detale{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 190px;
+    }
