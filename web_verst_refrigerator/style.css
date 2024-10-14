@@ -1,8 +1,8 @@
-/*
+
 *{
     outline: 4px solid green !important;
 }
-*/
+
 body{
     padding: 0;
     margin: 0;
@@ -81,6 +81,14 @@ header{
     align-items: center;
     font-size: 16px;
     font-weight: 400;
+}
+
+.header-nav-info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: start;
+    align-items: start;
 }
 
 .header-info-2{
@@ -710,6 +718,7 @@ input[type="text"] {
     }
 
     .body-wrapper > div{
+        width: 328px;
         margin-top: 40px;
         margin-bottom: 40px;
     }
@@ -727,6 +736,8 @@ input[type="text"] {
     }
 
     .header-naming h1{
+        margin-bottom: 10px;
+        height: auto;
         font-size: 30px;
         font-weight: 800;
         line-height: 40px;
@@ -832,6 +843,7 @@ input[type="text"] {
     }
 
     .services-info-text{
+        max-width: 360px;
         padding: 0%;
     }
 
