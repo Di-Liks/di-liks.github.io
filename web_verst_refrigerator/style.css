@@ -236,6 +236,7 @@ justify-content: space-between;
     line-height: 52px;
     text-decoration: none;
     text-align: center;
+    text-transform: uppercase;
     color: #1A5C7C;
 }
 
@@ -720,7 +721,14 @@ input[type="text"] {
     }
 
     .header-info-2{
+        padding-left: 16px;
+        padding-top: 15px;
+        padding-right: 16px;
         margin-top: 0px;
+    }
+
+    .container {
+        padding-top: 20px;
     }
 
     .body-wrapper > div{
@@ -798,6 +806,7 @@ input[type="text"] {
 
     .accept-repairs-name{
         width: 328px;
+        padding-bottom: 26px;
     }
 
     .accept-repairs-name u{
@@ -925,6 +934,10 @@ input[type="text"] {
     }
 
     .contract-agreement u{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.02em;
         text-align: left;
     }
 
@@ -982,6 +995,7 @@ input[type="text"] {
     .box-footer-end{
         flex-direction: column;
         margin-top: 0%;
+        margin-bottom: 32px;
     }
 
     .privacy-policy{
