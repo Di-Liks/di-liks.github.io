@@ -1,8 +1,8 @@
-
+/*
 *{
     outline: 4px solid green !important;
 }
-
+*/
 body{
     padding: 0;
     margin: 0;
@@ -81,6 +81,8 @@ header{
     align-items: center;
     font-size: 16px;
     font-weight: 400;
+    max-width: 1408px;
+    margin: auto;
 }
 
 .header-nav-info{
@@ -717,6 +719,10 @@ input[type="text"] {
         padding: 0px 16px 0px 16px;
     }
 
+    .header-info-2{
+        margin-top: 0px;
+    }
+
     .body-wrapper > div{
         width: 328px;
         margin-top: 40px;
@@ -915,6 +921,7 @@ input[type="text"] {
 
     .contract-button{
         margin-bottom: 40px;
+        width: 268px;
     }
 
     .contract-agreement u{
@@ -929,14 +936,17 @@ input[type="text"] {
     .contract-name{
         order: 2;
     }
-
+    
     .contract-application{
         flex-direction: column;
         gap: 20px;
     }
-
+    
     .contract-application-block{
         margin-top: 20px;
+        width: 268px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .contract-agreement{
@@ -945,7 +955,8 @@ input[type="text"] {
     }
 
     input[type="text"] {
-    margin-bottom: 0%;
+        width: 252px;
+        margin-bottom: 0%;
     }
 
     .box-1 {
