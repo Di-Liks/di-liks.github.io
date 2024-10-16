@@ -1199,6 +1199,14 @@ input[type="text"] {
             margin-right: 45.5px;
         }
     
+        .header-flex-box-1{
+            height: 34px;    
+        }
+
+        .footer-button{
+            width: 169px;
+        }
+
         .official-dealer-info-bottom{
             max-width: 280px;
             flex-direction: column;
