@@ -3,11 +3,34 @@
     outline: 4px solid green !important;
 }
 */
+
+@font-face {
+    font-family: 'Core Sans C';
+    font-style: normal;
+	font-weight: normal;
+    src: local('Core Sans C'),
+         url('/font/CoreSansC-35Light.woff2') format('woff2'), 
+         url('/font/CoreSansC-35Light.woff') format('woff'),
+         url('/font/CoreSansC-35Light.ttf') format('ttf'),
+         url('/font/CoreSansC-35Light.eot') format('eot');
+}
+
+@font-face {
+	font-family: 'Core Sans C';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Core Sans C'),
+		url('/font/CoreSansC-75ExtraBold.woff2') format('woff2'), 
+		url('/font/CoreSansC-75ExtraBold.woff') format('woff'),
+		url('/font/CoreSansC-75ExtraBold.ttf') format('ttf'),
+		url('/font/CoreSansC-75ExtraBold.eot') format('eot');
+}
+
 body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Core Sans C', arial;
+    font-family: 'Core Sans C';
     color: #0A2F41;
 }
 .wrapper{
@@ -15,13 +38,6 @@ body{
     margin: auto;
 }
 
-h1{
-    font-size: 60px;
-    font-weight: 800;
-    line-height: 60px;
-    text-align: left;
-    height: 120px;
-}
 
 .body-wrapper > div{
     margin-top: 110px;
@@ -48,12 +64,14 @@ h1{
     text-align: left;
 }
 
+.block-text p{
+    margin-top: 0px;
+}
+
 .button{
     text-align: center;
-    top:50%;
     background-color: #FF7300;
     font-weight: 600;
-    line-height: 44px;
     color: #FFFFFF;
     cursor: pointer;
     transition: 0.3s ease-in-out;
@@ -69,8 +87,8 @@ header{
 }
 
 .header-up-info{
-    padding-top: 18px;
-    padding-bottom: 14px;
+    padding-top: 20px;
+    padding-bottom: 16px;
     border-bottom: 1px solid #FFFFFF1A;
 }
 
@@ -89,12 +107,14 @@ header{
     display: flex;
     flex-direction: row;
     width: 100%;
+    gap: 6px;
     justify-content: start;
     align-items: start;
 }
 
 .header-info-2{
-    margin-top: 19px;
+    margin-top: 16px;
+    margin-bottom: 12px;
 }
 
 .header-flex-box-2{
@@ -105,6 +125,7 @@ header{
 
 .header-flex-box{
     display: flex;
+    gap: 4px;
     align-items: center;
     cursor: pointer;
 }
@@ -132,12 +153,16 @@ header{
 }
 
 .header-nav{
-    margin-top: 48px;
+    margin-top: 47px;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     text-align: left;
     color: #9B9B9B;
+}
+
+.header-flex-box-1{
+height: 58px;
 }
 
 .mobile-info-block{
@@ -153,12 +178,15 @@ header{
 }
 
 .header-naming h1{
+    font-family: 'Core Sans C';
+    font-weight: bold;
+    max-width: 807px;
     font-size: 60px;
-    font-weight: 800;
     line-height: 60px;
     text-align: left;
     text-transform: uppercase;
-    margin-bottom: 32px;
+    margin-top: 45px;
+    margin-bottom: 35px;
     color: #FFFFFF;
 }
 
@@ -185,10 +213,10 @@ header{
 }
 
 .seo-block{
-gap: 74px;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+    gap: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .seo-mini-block{
@@ -203,7 +231,7 @@ justify-content: space-between;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 77px;
     padding-bottom: 80px;
     background-color: #F4F4F4;
 }
@@ -227,7 +255,7 @@ justify-content: space-between;
     top: 184px;
     left: 523px;
     padding-top: 52px;
-    padding-bottom: 60px;
+    padding-bottom: 63px;
 }
 
 .accept-repairs-name u{
@@ -238,6 +266,18 @@ justify-content: space-between;
     text-align: center;
     text-transform: uppercase;
     color: #1A5C7C;
+    cursor: pointer;
+}
+
+.accept-button{
+    width: 222px;
+    height: 52px;
+    line-height: 52px;
+}
+
+.accept-repairs-name u:hover{
+    transition: 0.3s ease-in-out;
+    color: #FF7300;
 }
 
 .accept-repairs-button{
@@ -260,6 +300,8 @@ justify-content: space-between;
     font-weight: 800;
     line-height: 52px;
     text-align: left;
+    margin: 0%;
+    margin-bottom: 13px;
 }
 
 .official-dealer u{
@@ -270,19 +312,27 @@ justify-content: space-between;
     text-decoration: none;
 }
 
+.official-dealer-padding{
+    display: flex;
+    flex-direction: row;
+    margin: 80px 85px 80px 110px;
+    width: 100%;
+    gap: 136px;
+}
+
 .official-dealer-info{
-    width: 50%;
+    height: 224px;
+    width: 510px;
 }
 
 .official-dealer-info-bottom{
-    max-width: 600px;
+    max-width: 503px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .carrier-logo-img{
-    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -310,11 +360,11 @@ justify-content: space-between;
 .services-info{
     display: flex;
     flex-direction: row;
-    justify-self: end;
+    max-width: 477px;
+    gap: 10px;
 }
 
 .services-info-text{
-    padding-left: 5%;
     width: 365px;
 }
 
@@ -337,10 +387,15 @@ justify-content: space-between;
     text-align: left;
     color: #FF7300;
     cursor: pointer;
+    gap: 8.5px;
 }
 
 .svg-img{
     height: 100%;
+    width: 102px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 
 .addint-info u {
@@ -353,19 +408,20 @@ justify-content: space-between;
     font-weight: 800;
     line-height: 52px;
     text-align: center;
+    margin: 0%;
+    text-transform: uppercase;
 }
 
 .branch-info{
     display: flex;
-    gap: 32px;
+    gap: 55px;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 55px;
 }
 
 .branch-block{
-    position: relative;
-    left: 32px;
-    max-width: 448px;
+
+    padding: 40px 0px 40px 32px;
 }
 
 .branch-block u{
@@ -379,22 +435,29 @@ justify-content: space-between;
     text-decoration: none;
 }
 
+.branch-info-text-mini{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .branch-info-text-mini p{
-    margin-bottom: 10px;
+    margin: 0%;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 22px;
     text-align: left;
-    text-decoration:underline;
     cursor: pointer;
+    border-bottom: 1px solid #0A2F41;
 }
 
 .branch-location{
-    margin-bottom: 5%;
+    width: 386px;
+    margin-bottom: 28px;
     display: flex;
     flex-direction: row;
     justify-content: start;
-    gap: 5px;
+    gap: 18px;
     cursor: pointer;
 }
 
@@ -419,7 +482,7 @@ justify-content: space-between;
 .contract{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:end;
     height: 544px;
     background-color: #0A2F41;
     overflow: hidden;
@@ -431,12 +494,21 @@ justify-content: space-between;
     order: 2;
 }
 
+.contract-info{
+    order: 1;
+    max-width: 845px;
+    padding-top: 155px;
+    display: flex;
+    justify-content: center;
+}
+
 .contract-name{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    order: 1;
+    width: calc(100% - 177px);
+    height: calc(100% - 172px);
 }
 
 .contract-in-name{
@@ -448,26 +520,21 @@ justify-content: space-between;
     align-items: center;
 }
 
-.contract-application-block{
-    display: flex;
-    flex-direction: column;
-    margin-top: 52px;
-}
-
 .contract-name h2{
     margin-top: 0px;
-    margin-left: 12%;
     font-size: 44px;
     font-weight: 800;
     line-height: 52px;
     text-align: left;
     color: #FFFFFF;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
 }
 
 .contract-name u{
     margin-top: 20px;
-    margin-left: -17%;
+    margin-bottom: 52px;
+    width: 100%;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -483,8 +550,17 @@ justify-content: space-between;
     gap: 28px;
 }
 
-.contract-name-text{
+.contract-application-block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 28px;
     width: 100%;
+}
+
+.contract-name-text{
+    width: calc(50% - 14px);
 }
 
 .contract-name-text u{
@@ -492,7 +568,6 @@ justify-content: space-between;
     padding: 0px;
     text-decoration: none;
     font-size: 16px;
-    font-weight: 600;
     line-height: 16px;
     text-align: left;
     color: #FFFFFF;
@@ -513,33 +588,101 @@ justify-content: space-between;
     margin-left: 5px;
 }
 
+.text-lable u{
+    font-size: 14px;
+    line-height: 14px;
+}
+
 span{
-    text-decoration: underline;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+span:hover{
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid #FFFFFF;
 }
 
 .contract-button{
-    width: 336px;
+    width: calc(50% - 14px);
     height: 52px;
     line-height: 52px;
 }
 
-.contract-checkbox {
-    display: block;
-	line-height: 22px;
+
+
+
+
+.text-lable {
+	display: block;
+	margin: 0 0 10px 0;
 	cursor: pointer;
 	user-select: none;
 	position: relative;
 }
-
-.contract-checkbox input[type=checkbox] {
-    position: absolute;
+.text-lable input[type=checkbox] {
+	position: absolute;
 	z-index: -1;
 	opacity: 0;
 	display: block;
 	width: 0;
 	height: 0;
 }
+.text-lable u {
+	display: inline-block;
+	position: relative; 
+	padding: 0 0 0 35px; 
+	line-height: 22px;    
+}
+.text-lable u:before {
+	content: "";
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: background 0.3s ease;
+	background: #FFFFFF no-repeat;
+    border: 1px solid #FF7300;
+}
+ 
+/* Checked */
+.text-lable input[type=checkbox]:checked + u:before {
+	background-image: url(img/checkbox-2.jpg);
+    border: 1px solid #FF7300;
+}
+ 
+/* Focus */
+.focused u:before {
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    
+}
+ 
+/* Hover */
+.text-lable u:hover:before {
+	filter: brightness(110%);
+}
+ 
+/* Active */
+.text-lable u:active:before {
+	filter: brightness(80%);
+}
+ 
+/* Disabled */
+.text-lable input[type=checkbox]:disabled + u {
+	color: #666;
+	cursor: default;
+}
+.text-lable input[type=checkbox]:disabled + u:before {
+	filter: grayscale(100%);
+	opacity: 0.6;
+}
+
+
+
+
 
 footer{
     background-color: #0A2F41;
@@ -547,7 +690,7 @@ footer{
 }
 
 .container {
-    padding-top: 72px;
+    padding-top: 36px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -558,14 +701,17 @@ footer{
 }
 
 .box-2 {
+    padding-top: 20px;
     width: 25%;
 }
 
 .box-3 {
+    padding-top: 20px;
     width: 25%;
 }
 
 .box-connection {
+    padding-top: 20px;
     width: 25%;
     left: 0px;
 }
@@ -575,7 +721,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 64px;
+    margin-top: 53px;
     margin-bottom: 40px;
     color: #FFFFFF;
     font-size: 16px;
@@ -616,7 +762,7 @@ footer{
     display: grid;
     grid-template-columns: 44px 44px;
     gap: 16px;
-    margin-top: 72px;
+    margin-top: 77px;
 }
 
 .footer-info-button-1{
@@ -630,10 +776,6 @@ footer{
 .footer-info-button-1 svg{
     transition: 0.5s ease-in-out;
     padding: 10px;
-}
-
-.made-in{
-    text-align: left;
 }
 
 .сopyright-mark{
@@ -673,16 +815,13 @@ input[type="text"] {
     line-height: inherit;
     margin: 0px;
     border: none;
-    margin-bottom: 28px;
-    margin-top: 8px;
     color: #999999;
 }
 
 .name-text{
     display: block;
-    max-width: 320px;
-    width: 320px;
     padding: 14px 0px 14px 16px;
+    width: calc(100% - 14px);
     font-weight: 400;
     color: #212529;
     background-color: #FFFFFF;
@@ -699,6 +838,7 @@ input[type="text"] {
 }
 
 .branch-info-text-bottom{
+    margin-top: 28px;
     width: 328px;
     display: flex;
     flex-direction: row;
@@ -706,149 +846,40 @@ input[type="text"] {
 }
 
 .branch-svg{
-    padding-top: 46px;
+    padding-top: 36px;
     display: none;
 }
 
-@media (max-width: 800px) {
+  
 
+@media (max-width: 1416px) {
     .wrapper{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 800px;
-        padding: 0px 16px 0px 16px;
+        max-width: 1200px;
+            margin: auto;
     }
+}
 
-    .header-info-2{
-        padding-left: 16px;
-        padding-top: 15px;
-        padding-right: 16px;
-        margin-top: 0px;
-    }
-
-    .container {
-        padding-top: 20px;
-    }
-
-    .body-wrapper > div{
-        width: 328px;
-        margin-top: 40px;
+@media (max-width: 1200px) {
+    
+    .wrapper{
+        max-width: 1000px;
+            margin: auto;
+        }
+        
+    .body-wrapper > div:last-child {
         margin-bottom: 40px;
     }
-
-    .mobile-info-block{
-        display: block;
+        
+    .body-wrapper >div:first-child{
+        margin-top: 40px;
     }
-
-    .mobile-info-block svg{
-        cursor: pointer;
-    }
-
-    .header-up-info, .header-flex-box, .header-flex-bottom{
-        display: none;
-    }
-
-    .header-naming h1{
-        margin-bottom: 10px;
-        height: auto;
-        font-size: 30px;
-        font-weight: 800;
-        line-height: 40px;
-    }
-
-    .header-naming u{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-    }
-
-    .seo-text h2{
-        font-size: 24px;
-        font-weight: 800;
-        line-height: 32px;
+    
+    .addint-info{
+        justify-content: center;
     }
 
     .block-text{
         max-width: 100%;
-    }
-
-    .block-img{
-        max-width: 100%;
-    }
-
-    .seo-mini-block{
-        flex-direction: column;
-    }
-    
-    .mobile-block{
-        display: none;
-    }
-    
-    .seo-block{
-        gap: 40px;
-    }
-
-    .seo-block>div:nth-child(odd){
-        flex-flow: column-reverse;
-    }
-    
-    .accept-repairs{
-        background-color: #FFFFFF;
-    }
-
-    .accept-repairs h2{
-        font-size: 24px;
-        font-weight: 800;
-        line-height: 32px;
-        text-align: center;
-    }
-
-    .accept-repairs-name{
-        width: 328px;
-        padding-bottom: 26px;
-    }
-
-    .accept-repairs-name u{
-        font-size: 24px;
-        font-weight: 800;
-        line-height: 32px;
-        text-align: center;
-    }
-
-    .official-dealer{
-        flex-direction: column;
-        height: auto;
-        padding-top:40px;
-        padding-bottom: 40px;
-    }
-
-    .carrier-logo-img{
-        width: 100%;
-        height: auto;
-    }
-
-    .official-dealer-info{
-        margin-top: 40px;
-        margin-left: 45.5px;
-        margin-right: 45.5px;
-    }
-
-    .official-dealer-info-bottom{
-        max-width: 280px;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .official-dealer h2{
-        width: 280px;
-        font-size: 24px;
-        font-weight: 800;
-        line-height: 32px;
-    }
-
-    .services{
-        flex-direction: column;
     }
 
     .services-info{
@@ -856,50 +887,42 @@ input[type="text"] {
         justify-content: center;
         align-items: center;
     }
-
+    
     .services-info-text{
-        max-width: 360px;
         padding: 0%;
     }
-
+        
     .services-info-text h3{
-        margin-top: 32px;
+        margin-top: 0px;
         text-align: center; 
     }
-
-    .addint-info{
-        justify-content: center;
-    }
-
-    .branch{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    
+    .contract{
         align-items: center;
     }
-
-    .branch h2{
-        width: 100%;
-        margin: 0%;
-        padding-left: 16px;
-        margin-top: 40px;
-        font-size: 24px;
-        font-weight: 800;
-        line-height: 32px;
-        text-align: left;
-    }
-
-    .branch-info{
-        flex-direction: column;
-        width: 328px;
+    
+    .header-flex-box-2{
+        display: none;
     }
     
-    .branch-block{
-        left: 0%;
+    .header-flex-bottom{
+        display: none;
+    }
+    
+    .header-up-info{
+        display: none;
     }
 
-    .branch-svg{
+    .mobile-info-block{
         display: block;
+    }
+    
+    .accept-repairs{
+        margin-top: 40px;
+    }
+    
+    .mobile-block{
+        display: none;
     }
 
     .contract{
@@ -907,6 +930,10 @@ input[type="text"] {
         display: flex;
         flex-direction: column;
         gap: 0px;
+    }
+        
+    .contract-name{
+        width: 100%;
     }
     
     .contract-name h2{
@@ -918,152 +945,279 @@ input[type="text"] {
         line-height: 32px;
         text-align: center;
     }
-
+    
     .contract-name u{
         margin-left: 0%;
-        width: 268px;
+        margin-top: 0px;
+        width: calc(100% - 35px);
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
         text-align: center;
-    }
-
-    .contract-button{
-        margin-bottom: 40px;
-        width: 268px;
-    }
-
-    .contract-agreement u{
-        font-size: 14px;
-        font-weight: 400;
         line-height: 18px;
-        letter-spacing: -0.02em;
-        text-align: left;
-    }
-
-    .contract-img{
-        order: 1;
-        width: 100%;
-    }
-    
-    .contract-name{
-        order: 2;
-    }
-    
-    .contract-application{
-        flex-direction: column;
-        gap: 20px;
-    }
-    
-    .contract-application-block{
-        margin-top: 20px;
-        width: 268px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .contract-agreement{
-        justify-content: start;
-        margin-top: 22px;
-    }
-
-    input[type="text"] {
-        width: 252px;
-        margin-bottom: 0%;
-    }
-
-    .box-1 {
-        display: flex;
-        width: 100%;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    
-    .box-2 {
-        width: 100%;
     }
         
-    .box-3 {
-        width: 100%;
-    }
-
-    .box-connection {
-        width: 100%;
-        left: 0px;
-    }
-
-    .box-footer-end{
-        flex-direction: column;
-        margin-top: 0%;
-        margin-bottom: 32px;
-    }
-
-    .privacy-policy{
-        margin-left: 0px;
-    }
-
-    .footer-info-button{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 28px;
-        margin-bottom: 28px;
-    }
-
-    .big-detal-mobile{
-        max-width: 328px;
-        background-color: #E6E4E5;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .сopyright-mark, .privacy-policy, .made-in{
-        width: 100%;
-    }
-    
-    .сopyright-mark{
-        margin-bottom: 8px;
-    }
-    .сopyright-mark p{
-        margin-bottom: 0px;
-        color: #FFFFFF99;
-    }
-
-    .privacy-policy{
-        margin-top: 0px;
-    }
-
-    .privacy-policy p{
-        margin-top: 0px;
-    }
-
-    .footer-logo-2, .footer-button-text-2{
-        display: block;
-    }
-
-    .footer-logo-1, .footer-button-text-1{
-        display: none;
-    }
-
-    }   
-    
-    @media (max-width: 1200px) {
-    
-        .wrapper{
-            max-width: 1200px;
-            margin: auto;
+    .official-dealer{
+        padding-bottom: 80px;
+            height: auto;
         }
 
-        .body-wrapper > div{
+        .official-dealer-padding{
+            flex-direction: column;
+
             margin-top: 40px;
+            align-items: center;
+            gap: 0px;
+            width: 100%;
+            gap: 40px;
+        }
+        
+        span{
+            border: none;
+        }
+    
+        span:hover{
+            border: none;
+        }
+
+        
+        .header-info-2{
+            margin-top: 0%;
+            padding-top: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .text-lable u{
+            text-align: left;
+            font-size: 14px;
+            text-decoration: none;
+        }
+        
+        .contract-button{
             margin-bottom: 40px;
         }
 
-        .services{
+        .contract-agreement u{
+            text-align: left;
+        }
+        
+        .contract-img{
+            order: 1;
+            width: 100%;
+        }
+
+        .contract-info{
+            padding-top: 0px;
+            order: 2;
+        }
+        
+        .contract-application{
             flex-direction: column;
+            gap: 20px;
+        }
+
+        .contract-application-block{
+            margin-top: 20px;
+        }
+        
+        .contract-agreement{
+            justify-content: start;
+            margin-top: 22px;
+        }
+
+        .official-dealer-info-bottom{
+            max-width: 450px;
+        }
+    }
+    
+    @media (max-width: 1008px) {
+        .wrapper{
+            max-width: 800px;
+                margin: auto;
+        }
+        .branch-info{
+            gap: 0px;
+        }
+        .branch-block{
+            width: 360px;
+        }
+    }
+    
+    @media (max-width: 800px) {
+
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 800px;
+            padding: 0px 16px 0px 16px;
+        }
+    
+        .header-info-2{
+            padding-left: 16px;
+            padding-top: 15px;
+            padding-right: 16px;
+            margin-top: 0px;
+        }
+    
+        .container {
+            padding-top: 20px;
+        }
+    
+        .body-wrapper > div{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    
+        .body-wrapper > div:last-child {
+            margin-bottom: 40px;
+        }
+    
+        .body-wrapper >div:first-child{
+            margin-top: 40px;
+        }
+    
+        .mobile-info-block{
+            display: block;
+        }
+    
+        .mobile-info-block svg{
+            cursor: pointer;
+        }
+    
+        .header-up-info, .header-flex-box, .header-flex-bottom{
+            display: none;
+        }
+    
+        .header-naming h1{
+            margin-bottom: 10px;
+            height: auto;
+            font-size: 30px;
+            font-weight: 800;
+            line-height: 40px;
+        }
+    
+        span{
+            border: none;
+        }
+    
+        span:hover{
+            border: none;
+        }
+        .header-naming u{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    
+        .branch-info-text-bottom{
+            width: 280px;
+        }
+    
+        .seo-text h2{
+            margin-top: 40px;
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 32px;
+        }
+    
+        .block-text{
+            max-width: 100%;
+        }
+    
+        .block-img{
+            max-width: 100%;
+        }
+    
+        .official-dealer-info-mini{
+            gap: 20px;
+        }
+    
+        .seo-mini-block{
+            flex-direction: column;
+            gap: 16px;
+        }
+        
+        .branch-location{
+            width: 280px;
+        }
+    
+        .mobile-block{
+            display: none;
+        }
+        
+        .seo-block{
+            gap: 40px;
+        }
+    
+        .seo-block>div:nth-child(odd){
+            flex-flow: column-reverse;
+        }
+        
+        .accept-repairs{
+            background-color: #FFFFFF;
+            padding: 0%;
+        }
+    
+        .accept-repairs h2{
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 32px;
+            text-align: center;
+        }
+    
+        .accept-repairs-name{
+            width: 300px;
+            height: 24px;
+            padding-top: 26px;
+            padding-bottom: 26px;
+        }
+    
+        .accept-repairs-name u{
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 32px;
+            text-align: center;
+        }
+    
+        .official-dealer{
+            flex-direction: column;
+            height: auto;
+            padding-top:40px;
+            padding-bottom: 80px;
+        }
+    
+        .carrier-logo-img{
+            width: 100%;
+            height: auto;
+        }
+    
+        .official-dealer-info{
+            margin-top: 40px;
+            margin-left: 45.5px;
+            margin-right: 45.5px;
+        }
+    
+        .official-dealer-info-bottom{
+            max-width: 280px;
+            flex-direction: column;
+            gap: 20px;
+            padding-bottom: 40px;
+        }
+    
+        .official-dealer h2{
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 32px;
+            text-align: left;
+        }
+    
+        @media (max-width: 680px) {
+            .services{
+                flex-direction: column;
+            }
         }
     
         .services-info{
@@ -1071,35 +1225,71 @@ input[type="text"] {
             justify-content: center;
             align-items: center;
         }
-
+    
         .services-info-text{
+            max-width: 328px;
             padding: 0%;
         }
-
+    
         .services-info-text h3{
             margin-top: 32px;
-            text-align: center; 
+            text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: center;
         }
-
-        .header-flex-box-2{
-            display: none;
+    
+        .addint-info{
+            justify-content: center;
         }
-
-        .accept-repairs{
+    
+        .branch{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .branch h2{
+            width: 100%;
+            margin: 0%;
+            padding-left: 16px;
             margin-top: 40px;
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 32px;
+            text-align: left;
         }
-
-        .mobile-block{
-            display: none;
+    
+        .branch-info{
+            flex-direction: column;
+            width: 328px;
+            margin-top: 24px;
+            gap: 24px;
+            align-items: center;
         }
-
+        
+        .branch-block{
+            padding: 0px;
+            width: 280px;
+        }
+    
+        .branch-svg{
+            display: block;
+        }
+    
         .contract{
             height: auto;
             display: flex;
             flex-direction: column;
             gap: 0px;
         }
-        
+    
+        .contract-name{
+            width: 100%;
+        }
+    
         .contract-name h2{
             margin-left: 0%;
             width: 288px;
@@ -1112,49 +1302,170 @@ input[type="text"] {
     
         .contract-name u{
             margin-left: 0%;
+            margin-bottom: 0px;
             width: 268px;
             font-size: 16px;
             font-weight: 400;
             line-height: 24px;
             text-align: center;
         }
-
+    
         .contract-button{
             margin-bottom: 40px;
+            width: 268px;
         }
-
+    
         .contract-agreement u{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: -0.02em;
             text-align: left;
         }
-
+    
         .contract-img{
             order: 1;
             width: 100%;
         }
-
-        .contract-name{
+        
+        .contract-info{
+            padding-top: 0px;
             order: 2;
+            width: 100%;
+        }
+        
+        .official-dealer-padding{
+            flex-direction: column;
+            margin: 0px;
+            gap: 0px;
+            width: 100%;
+            gap: 40px;
         }
     
+        .official-dealer-info{
+            width: auto;
+            margin-left: 45.5px;
+            margin-right: 45.5px;
+            margin-top: 0px;
+        }
+    
+        .carrier-logo-img img{
+            width: 262px;
+        }
         .contract-application{
             flex-direction: column;
             gap: 20px;
         }
-
+        
         .contract-application-block{
+            flex-direction: column;
             margin-top: 20px;
+            width: 268px;
+            padding-left: 30px;
+            padding-right: 30px;
         }
-
+    
+        .contract-name-text{
+            width: 100%;
+        }
+        
+        .text-lable u{
+            text-align: left;
+        }
+    
         .contract-agreement{
             justify-content: start;
             margin-top: 22px;
         }
-
-        .official-dealer-info-bottom{
-            max-width: 450px;
+    
+        input[type="text"] {
+            width: 252px;
+            margin-bottom: 0%;
         }
-    }
-
+    
+        .box-1 {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .box-2 {
+            width: 100%;
+        }
+            
+        .box-3 {
+            width: 100%;
+            padding: 0%;
+        }
+        .box-3 p:first-child{
+            margin-top: 0%;
+        }
+    
+        .box-connection {
+            width: 100%;
+            padding: 0%;
+        }
+    
+        .box-footer-end{
+            flex-direction: column;
+            margin-top: 0%;
+            margin-bottom: 32px;
+        }
+    
+        .privacy-policy{
+            margin-left: 0px;
+        }
+    
+        .footer-info-button{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 28px;
+            margin-bottom: 28px;
+        }
+    
+        .big-detal-mobile{
+            max-width: 328px;
+            background-color: #E6E4E5;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .сopyright-mark, .privacy-policy, .made-in{
+            width: 100%;
+        }
+        
+        .сopyright-mark{
+            margin-bottom: 8px;
+        }
+        .сopyright-mark p{
+            margin-bottom: 0px;
+            margin-top: 0%;
+            color: #FFFFFF99;
+        }
+    
+        .privacy-policy{
+            margin-top: 0px;
+        }
+    
+        .privacy-policy p{
+            margin-top: 0px;
+        }
+    
+        .footer-logo-2, .footer-button-text-2{
+            display: block;
+        }
+    
+        .footer-logo-1, .footer-button-text-1{
+            display: none;
+        }
+    
+    } 
+    
     .big-detal-info{
         width: 284px;
         padding-bottom: 48px;
@@ -1167,7 +1478,7 @@ input[type="text"] {
         text-align: left;
         color: #0A2F41;
     }
-
+    
     .big-detal-info u{
         text-decoration: none;
         font-size: 16px;
