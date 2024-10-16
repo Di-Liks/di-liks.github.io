@@ -9,10 +9,10 @@
     font-style: normal;
 	font-weight: normal;
     src: local('Core Sans C'),
-         url('/font/CoreSansC-35Light.woff2') format('woff2'), 
-         url('/font/CoreSansC-35Light.woff') format('woff'),
-         url('/font/CoreSansC-35Light.ttf') format('ttf'),
-         url('/font/CoreSansC-35Light.eot') format('eot');
+         url('font/CoreSansC-35Light.woff2') format('woff2'), 
+         url('font/CoreSansC-35Light.woff') format('woff'),
+         url('font/CoreSansC-35Light.ttf') format('ttf'),
+         url('font/CoreSansC-35Light.eot') format('eot');
 }
 
 @font-face {
@@ -20,10 +20,10 @@
 	font-style: normal;
 	font-weight: bold;
 	src: local('Core Sans C'),
-		url('/font/CoreSansC-75ExtraBold.woff2') format('woff2'), 
-		url('/font/CoreSansC-75ExtraBold.woff') format('woff'),
-		url('/font/CoreSansC-75ExtraBold.ttf') format('ttf'),
-		url('/font/CoreSansC-75ExtraBold.eot') format('eot');
+		url('font/CoreSansC-75ExtraBold.woff2') format('woff2'), 
+		url('font/CoreSansC-75ExtraBold.woff') format('woff'),
+		url('font/CoreSansC-75ExtraBold.ttf') format('ttf'),
+		url('font/CoreSansC-75ExtraBold.eot') format('eot');
 }
 
 body{
