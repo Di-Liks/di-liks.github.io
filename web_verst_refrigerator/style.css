@@ -313,7 +313,8 @@ height: 58px;
 .official-dealer-padding{
     display: flex;
     flex-direction: row;
-    margin: 80px 85px 80px 110px;
+    justify-content: center;
+    padding: 80px;
     width: 100%;
     gap: 136px;
 }
@@ -334,7 +335,9 @@ height: 58px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 224px;
 }
+
 
 .official-dealer-info-mini{
     display: flex;
@@ -947,7 +950,7 @@ input[type="text"] {
 
         .official-dealer-padding{
             flex-direction: column;
-
+            padding: 45.5px;
             margin-top: 40px;
             align-items: center;
             gap: 0px;
@@ -1170,8 +1173,6 @@ input[type="text"] {
     
         .official-dealer-info{
             margin-top: 40px;
-            margin-left: 45.5px;
-            margin-right: 45.5px;
         }
     
         .header-flex-box-1{
@@ -1309,22 +1310,18 @@ input[type="text"] {
         
         .official-dealer-padding{
             flex-direction: column;
+            padding: 0 45.5px;
             margin: 0px;
             gap: 0px;
-            width: 100%;
+            width: auto;
             gap: 40px;
         }
     
         .official-dealer-info{
             width: auto;
-            margin-left: 45.5px;
-            margin-right: 45.5px;
             margin-top: 0px;
         }
         
-        .carrier-logo-img img{
-            width: 262px;
-        }
         .contract-application{
             flex-direction: column;
             gap: 20px;
