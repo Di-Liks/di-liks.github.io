@@ -34,8 +34,7 @@ body{
     color: #0A2F41;
 }
 .wrapper{
-    max-width: 1408px;
-    margin: auto;
+    padding: 0 96px;
 }
 
 
@@ -99,8 +98,6 @@ header{
     align-items: center;
     font-size: 16px;
     font-weight: 400;
-    max-width: 1408px;
-    margin: auto;
 }
 
 .header-nav-info{
@@ -287,6 +284,7 @@ height: 58px;
 }
 
 .official-dealer{
+    width: 100%;
     display: flex;
     flex-direction: row ;
     height: 384px;
@@ -650,7 +648,7 @@ span:hover{
  
 /* Checked */
 .text-lable input[type=checkbox]:checked + u:before {
-	background-image: url(img/checkbox-2.jpg);
+	background-image: url(img/checkbox-1.png);
     border: 1px solid #FF7300;
 }
  
@@ -850,21 +848,7 @@ input[type="text"] {
     display: none;
 }
 
-  
-
-@media (max-width: 1416px) {
-    .wrapper{
-        max-width: 1200px;
-            margin: auto;
-    }
-}
-
 @media (max-width: 1200px) {
-    
-    .wrapper{
-        max-width: 1000px;
-            margin: auto;
-        }
         
     .body-wrapper > div:last-child {
         margin-bottom: 40px;
@@ -938,7 +922,6 @@ input[type="text"] {
     
     .contract-name h2{
         margin-left: 0%;
-        width: 288px;
         margin-top: 30px;
         font-size: 24px;
         font-weight: 800;
@@ -984,8 +967,6 @@ input[type="text"] {
         .header-info-2{
             margin-top: 0%;
             padding-top: 15px;
-            padding-left: 15px;
-            padding-right: 15px;
         }
 
         .text-lable u{
@@ -1008,7 +989,7 @@ input[type="text"] {
         }
 
         .contract-info{
-            padding-top: 0px;
+            padding: 0 30px;
             order: 2;
         }
         
@@ -1032,10 +1013,6 @@ input[type="text"] {
     }
     
     @media (max-width: 1008px) {
-        .wrapper{
-            max-width: 800px;
-                margin: auto;
-        }
         .branch-info{
             gap: 0px;
         }
@@ -1050,14 +1027,12 @@ input[type="text"] {
             display: flex;
             flex-direction: column;
             align-items: center;
-            max-width: 800px;
-            padding: 0px 16px 0px 16px;
+            padding: 0 16px;
         }
     
         .header-info-2{
             padding-left: 16px;
-            padding-top: 15px;
-            padding-right: 16px;
+            flex-direction: row;
             margin-top: 0px;
         }
     
@@ -1222,12 +1197,7 @@ input[type="text"] {
             text-align: left;
         }
     
-        @media (max-width: 680px) {
-            .services{
-                flex-direction: column;
-            }
-        }
-    
+        
         .services-info{
             flex-direction: column;
             justify-content: center;
@@ -1262,17 +1232,14 @@ input[type="text"] {
         .branch h2{
             width: 100%;
             margin: 0%;
-            padding-left: 16px;
             margin-top: 40px;
             font-size: 24px;
             font-weight: 800;
             line-height: 32px;
-            text-align: left;
+            text-align: center;
         }
     
         .branch-info{
-            flex-direction: column;
-            width: 328px;
             margin-top: 24px;
             gap: 24px;
             align-items: center;
@@ -1300,7 +1267,6 @@ input[type="text"] {
     
         .contract-name h2{
             margin-left: 0%;
-            width: 288px;
             margin-top: 30px;
             font-size: 24px;
             font-weight: 800;
@@ -1311,13 +1277,12 @@ input[type="text"] {
         .contract-name u{
             margin-left: 0%;
             margin-bottom: 0px;
-            width: 268px;
             font-size: 16px;
             font-weight: 400;
             line-height: 24px;
             text-align: center;
         }
-    
+        
         .contract-button{
             margin-bottom: 40px;
             width: 268px;
@@ -1337,7 +1302,7 @@ input[type="text"] {
         }
         
         .contract-info{
-            padding-top: 0px;
+            padding: 0 30px;
             order: 2;
             width: 100%;
         }
@@ -1356,7 +1321,7 @@ input[type="text"] {
             margin-right: 45.5px;
             margin-top: 0px;
         }
-    
+        
         .carrier-logo-img img{
             width: 262px;
         }
@@ -1369,8 +1334,6 @@ input[type="text"] {
             flex-direction: column;
             margin-top: 20px;
             width: 268px;
-            padding-left: 30px;
-            padding-right: 30px;
         }
     
         .contract-name-text{
@@ -1385,12 +1348,12 @@ input[type="text"] {
             justify-content: start;
             margin-top: 22px;
         }
-    
+        
         input[type="text"] {
             width: 252px;
             margin-bottom: 0%;
         }
-    
+        
         .box-1 {
             display: flex;
             width: 100%;
@@ -1420,7 +1383,7 @@ input[type="text"] {
             margin-top: 0%;
             margin-bottom: 32px;
         }
-    
+        
         .privacy-policy{
             margin-left: 0px;
         }
@@ -1435,14 +1398,14 @@ input[type="text"] {
         }
     
         .big-detal-mobile{
-            max-width: 328px;
+            width: 100%;
             background-color: #E6E4E5;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
-    
+        
         .сopyright-mark, .privacy-policy, .made-in{
             width: 100%;
         }
@@ -1459,27 +1422,40 @@ input[type="text"] {
         .privacy-policy{
             margin-top: 0px;
         }
-    
+        
         .privacy-policy p{
             margin-top: 0px;
         }
-    
+        
         .footer-logo-2, .footer-button-text-2{
             display: block;
         }
-    
+        
         .footer-logo-1, .footer-button-text-1{
             display: none;
         }
+        
+        @media (max-width: 680px) {
+            .services{
+                flex-direction: column;
+            }
     
+            .branch-info{
+                flex-direction: column;
+            }
+    
+            .branch h2{
+                text-align: left;
+            }
+        }
     } 
     
     .big-detal-info{
-        width: 284px;
+        padding: 22px;
         padding-bottom: 48px;
     }
     
-    .big-detal-info h1{
+    .big-detal-info h2{
         font-size: 24px;
         font-weight: 800;
         line-height: 32px;
@@ -1501,4 +1477,6 @@ input[type="text"] {
         justify-content: center;
         display: flex;
         width: 190px;
+        height: 44px;
+        margin-top: 20px;
     }
