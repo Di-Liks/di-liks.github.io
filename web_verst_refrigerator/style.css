@@ -651,7 +651,7 @@ span:hover{
  
 /* Checked */
 .text-lable input[type=checkbox]:checked + u:before {
-	background-image: url(img/checkbox-1.png);
+	background-image: url(img/checkbox-2.jpg);
     border: 1px solid #FF7300;
 }
  
